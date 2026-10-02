@@ -36,8 +36,8 @@ ESS-Battery-DAY2/
 Python 3.11 환경에서 실행했습니다.
 
 ```bash
-git clone https://github.com/pu2rile/ess-battery-day2-kimdohyun.git
-cd ess-battery-day2-kimdohyun
+git clone https://github.com/pu2rile/ess-battery-day2.git
+cd ess-battery-day2
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
