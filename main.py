@@ -31,7 +31,7 @@ def main():
         print("[1/4] 포함된 셀별 피처 사용", flush=True)
     feature_path = ROOT / "data/processed/features.csv"
     if not feature_path.is_file():
-        parser.error("data/processed/features.csv가 없습니다. data/README.md를 확인하세요.")
+        parser.error("data/processed/features.csv가 없습니다. README.md의 환경 설정을 확인하세요.")
 
     print("[2/4] Batch 1 모델 선택 및 Batch 2·3 평가", flush=True)
     summary, _, _ = run_training(feature_path, ROOT / "results")

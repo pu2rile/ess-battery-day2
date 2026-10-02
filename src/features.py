@@ -35,7 +35,7 @@ def build_features(raw_dir, out_dir):
     for batch, filename in FILES.items():
         path = raw_dir / filename
         if not path.is_file():
-            raise FileNotFoundError(f"Missing {path}. See data/README.md.")
+            raise FileNotFoundError(f"Missing {path}. See README.md.")
         with path.open("rb") as stream:
             digest = hashlib.file_digest(stream, "sha256").hexdigest()
         manifest.append({"batch": batch, "filename": filename,
