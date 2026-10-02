@@ -1,0 +1,15 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+  "python.terminal.activateEnvironment": true,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true,
+    ".mplconfig": true
+  },
+  "search.exclude": {
+    "**/.venv": true,
+    "**/data/raw": true,
+    "**/.mplconfig": true
+  }
+}

@@ -1,0 +1,9 @@
+Index,MAPE_or_Gap,Unit,Note
+Train (Batch 1 CV),6.6567991733358625,%,B1 train only; mean of 5 nested GroupKFold outer folds
+Valid (Batch 1 Hold-out),16.48008635736039,%,11 cells; unseen charging-protocol groups
+Test (Batch 2),124.98588279801956,%,Frozen B1-training model; no test tuning
+Gap (Train-Valid),9.823287184024526,pp,Valid minus CV; positive means error increased
+Gap (Valid-Test),108.50579644065917,pp,Test minus Valid; positive means error increased
+Gap (Target-Test),115.88588279801957,pp,Test minus assignment target 9.1%
+External (Batch 3),14.527893042670936,%,Same frozen model; optional external evaluation
+Gap (Batch2-Batch3),-110.45798975534862,pp,Batch3 minus Batch2

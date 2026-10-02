@@ -1,0 +1,11 @@
+data/raw/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.mplconfig/
+.env
+.env.*
+!.env.example
+*.pyc
+*.mat

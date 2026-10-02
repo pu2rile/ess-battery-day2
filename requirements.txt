@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+scikit-learn==1.4.2
+matplotlib==3.7.5
+h5py==3.16.0
+joblib==1.5.3
+nbformat>=5.9,<6
+ipython>=8,<10
+ipykernel>=6,<8
+jupyterlab>=4,<5
